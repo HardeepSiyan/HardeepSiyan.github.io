@@ -160,6 +160,13 @@
         grid-template-columns: 1fr;
     }
 }
-gdaln{
-    height: auto;
+@media(max-width:500px)
+{
+    .second-section
+    {
+        /* grid-template-columns: 1fr; */
+        display: block;
+        line-height: 2em;
+        margin: 0% 0%;
+    }
 }
