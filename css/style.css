@@ -4,10 +4,13 @@
 .heading{
     text-align: center;
 }
+.heading a{
+    text-decoration: none;
+}
 .a{
     background-color: red;
-    border: 0.02em solid;
+    /* border: 0.02em solid; */
+    border-radius: 0.4em;
     color: white;
     padding: 0.4em;
-    text-decoration: none;
 }
