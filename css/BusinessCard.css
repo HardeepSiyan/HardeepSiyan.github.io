@@ -1,0 +1,16 @@
+.businessCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2%;
+  padding: 1%;
+}
+img{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+@media(max-width:425px) {
+  .businessCard{
+    grid-template-columns: 1fr;
+  }
+}
